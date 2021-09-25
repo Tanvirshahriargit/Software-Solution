@@ -1,0 +1,119 @@
+[
+    {
+      "name": "Jhon Smith",
+      "des": "Front End Developer",
+      "age": 29,
+      "country": "USA",
+      "type": "Full-Time",
+      "salary": 50000,
+      "img": "https://unsplash.com/photos/ZHvM3XIOHoE"
+    },
+    {
+      "name": "Jhon Smith",
+      "des": "Back End Developer",
+      "age": 30,
+      "country": "UK",
+      "type": "Full-Time",
+      "salary": 70000,
+      "img": "https://unsplash.com/photos/iFgRcqHznqg"
+    },
+    {
+      "name": "Due Momy",
+      "des": "Ui & UX designer",
+      "age": 29,
+      "country": "UAE",
+      "type": "Full-Time",
+      "salary": 55000,
+      "img": "https://unsplash.com/photos/mEZ3PoFGs_k"
+    },
+    {
+      "name": "Jomy Byes",
+      "des": "Designer",
+      "age": 27,
+      "country": "IN",
+      "type": "Part-Time",
+      "salary": 50000,
+      "img": "https://unsplash.com/photos/NohB3FJSY90"
+    },
+    {
+      "name": "Jhony Rod",
+      "des": "Product Engineer",
+      "age": 28,
+      "country": "US",
+      "type": "Full-Time",
+      "salary": 60000,
+      "img": "https://unsplash.com/photos/WNoLnJo7tS8"
+    },
+    {
+      "name": "Jampu Cico",
+      "des": "Q&A Enginner",
+      "age": 26,
+      "country": "UK",
+      "type": "Full-Time",
+      "salary": 80000,
+      "img": "https://unsplash.com/photos/ILip77SbmOE"
+    },
+    {
+      "name": "Jammy Soci",
+      "des": "Software Tester",
+      "age": 32,
+      "country": "USE",
+      "type": "Full-Time",
+      "salary": 80000,
+      "img": "https://unsplash.com/photos/tAvpDE7fXgY"
+    },
+    {
+      "name": "Kadsina",
+      "des": "Manager",
+      "age": 34,
+      "country": "USA",
+      "type": "Full-Time",
+      "salary": 90000,
+      "img": "https://unsplash.com/photos/_H6wpor9mjs"
+    },
+    {
+      "name": "Lussy",
+      "des": "Social-Manager",
+      "age": 30,
+      "country": "UK",
+      "type": "Part-Time",
+      "salary": 30000,
+      "img": "https://unsplash.com/photos/Zz5LQe-VSMY"
+    },
+    {
+      "name": "Dessy",
+      "des": "Quality-Manager",
+      "age": 34,
+      "country": "UKE",
+      "type": "Full-Time",
+      "salary": 400000,
+      "img": "https://unsplash.com/photos/IF9TK5Uy-KI"
+    },
+    {
+      "name": "Kuddis",
+      "des": "SEO Marketer",
+      "age": 34,
+      "country": "USA",
+      "type": "Full-Time",
+      "salary": 30000,
+      "img": "https://unsplash.com/photos/VVEwJJRRHgk"
+    },
+    {
+      "name": "Jhon Bambu",
+      "des": "Head of Marketing",
+      "age": 30,
+      "country": "USA",
+      "type": "Full-Time",
+      "salary": 600000,
+      "img": "https://unsplash.com/photos/VVEwJJRRHgk"
+    },
+    {
+      "name": "Jgusey",
+      "des": "Comminucation Manager",
+      "age": 36,
+      "country": "UAE",
+      "type": "Full-Time",
+      "salary": 900000,
+      "img": "https://unsplash.com/photos/p7zGmc33s0U"
+    }
+  ]
