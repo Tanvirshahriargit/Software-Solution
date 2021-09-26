@@ -22,16 +22,17 @@ const Teamcontainer = () => {
         <div>
             <div>
                 <div className="row">
-                    <div className='col-md-9'>
+                    <div className="col-md-9 ms-3 mb-3">
                         <div className="row row-cols-1 row-cols-md-3 g-4"> 
                         {
-                                person.map(employee => <Emloyee employee={employee}
+                                person.map(employee => <Emloyee key={employee.name}
+                                employee={employee}
                                 handleMemberCost={handleMemberCost}
                                 ></Emloyee>)
                         }
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-2'>
                         <Teamcost
                         cost={cost}
                         ></Teamcost>

@@ -5,7 +5,7 @@ const Emloyee = (props) => {
     const { img, name, age, des, type, salary, country } = props.employee;
     return (
         <div>
-                <div class="col">
+                <div class="col shadow">
                  <div class="card">
                         <img src={img} class="card-img-top" alt="..."/>
                 <div class="card-body">
@@ -17,7 +17,7 @@ const Emloyee = (props) => {
                 <p class="card-text">Country: {country}</p>
                 {/* Button and Event Handeler */}
                 <button onClick={() => props.handleMemberCost(props.employee)}
-                className="btn btn-outline-info text-dark" type="submit"> Add Team Member</button>
+                className="btn btn-outline-info text-dark" type="submit"><i class="fas fa-user-plus"></i> Add Team Member</button>
                 </div>
                 </div>
                 </div>
