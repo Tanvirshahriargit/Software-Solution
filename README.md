@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Software Solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here Is My Website Link [My Software-solution-react-app](https://software-solution.netlify.app/).
+
+## Descriptions
+in This Websites we Build a Team How much cost of them
+
+1. How Can Add chose a members
+2. How Much Cost 
+3. Update Tatal amount
+4. you Can use this website make a software team how much cost pof them
+5. You can contact with them
 
 ## Available Scripts
 
