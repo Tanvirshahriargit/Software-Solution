@@ -4,12 +4,20 @@ import Teamcost from '../Teamcost/Teamcost';
 
 const Teamcontainer = () => {
     const [person, setperson] = useState([]);
+    // sate for Member add
+    const [cost, setCost] = useState([]);
 
     useEffect(() => {
         fetch('fakedata.json')
-            .then(res => res.json())
+        .then(res => res.json())
         .then(data=>setperson(data))
-    },[])
+    }, [])
+    
+    //Event Handeler For Add Member
+    const handleMemberCost = (member) => {
+        const newCost = [...cost, member];
+        setCost(newCost);
+    }
     return (
         <div>
             <div>
@@ -17,12 +25,16 @@ const Teamcontainer = () => {
                     <div className='col-md-9'>
                         <div className="row row-cols-1 row-cols-md-3 g-4"> 
                         {
-                            person.map(employee=><Emloyee employee={employee}></Emloyee>)
+                                person.map(employee => <Emloyee employee={employee}
+                                handleMemberCost={handleMemberCost}
+                                ></Emloyee>)
                         }
                         </div>
                     </div>
                     <div className='col-md-3'>
-                    <Teamcost></Teamcost>
+                        <Teamcost
+                        cost={cost}
+                        ></Teamcost>
                     </div>
 
                 </div>
